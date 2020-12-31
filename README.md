@@ -5,4 +5,5 @@
 - [003-ES2020 新特性](docs/003-ES2020%20新特性.md)
 - [004-字符串转换成字符串数组](docs/004-字符串转换成字符串数组.md)
 - [005 Fiber](docs/005-Fiber.md)
+- [006 React Rendering Behavior](docs/006-React-Rendering-Behavior.md)
 
