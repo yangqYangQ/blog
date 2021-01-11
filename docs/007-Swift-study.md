@@ -4,6 +4,12 @@
 
 # 学习 Swift
 
+
+
+[Memorize Game](./007-Memorize-Game-With-Swift.md)
+
+
+
 ## 2.  MVVM 和 Swift 类型
 
 Swift 中不同的类型包括：
@@ -33,4 +39,40 @@ a.append(22)
 
 
 ### 2.2 Functions
+
+```swift
+//function type
+(Int, Int) -> Bool  
+(Double) -> Void 
+() -> Array<String>
+() -> Void
+
+var foo: (Double) -> Void 
+func doSomething(what: () -> Bool) 
+```
+
+ ```swift
+var operation: (Double) -> Double
+
+func square(operand: Double) -> Double {
+ return operand * operand
+}
+
+operation = square
+//注意：不需要 operation(operand: 4)
+let result1 = operation(4)  // results = 16
+
+operation = sqrt  //sqrt 是 swift 内置的一个函数
+let result2 = operation(4) // result2 = 2
+ ```
+
+
+
+
+
+
+
+
+
+
 
